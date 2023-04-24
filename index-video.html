@@ -1,0 +1,566 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+
+        <!-- Page Title Here -->
+        <title>Helton YAWOVI - Personal Website (ヘルトン ヤウォヴィ - 個人のウェブサイト)</title>
+
+        <!-- Page Description Here -->
+        <meta name="description" content="A responsive coming soon template, un template HTML pour une page en cours de construction">
+
+        <!-- Disable screen scaling-->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <!-- Initializer -->
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <!-- Web fonts and Web Icons -->
+        <link rel="stylesheet" href="css/pageloader.css">
+        <link rel="stylesheet" href="fonts/opensans/stylesheet.css">
+        <link rel="stylesheet" href="fonts/asap/stylesheet.css">
+        <link rel="stylesheet" href="css/ionicons.min.css">
+
+        <!-- Vendor CSS style -->
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="js/vendor/jquery.fullPage.css">
+        <link rel="stylesheet" href="js/vegas/vegas.min.css">
+
+        <!-- Main CSS files -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main_responsive.css">
+        <link rel="stylesheet" href="css/style-color1.css">
+        <link rel="stylesheet" href="css/design.css">
+
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    </head>
+    <body id="menu" class="alt-bg">
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Page Loader -->
+        <div class="page-loader" id="page-loader">
+            <div><i class="ion ion-loading-d"></i><p>loading</p></div>
+        </div>
+
+        <!-- BEGIN OF site header Menu -->
+        <!-- Add "material" class for a material design style -->
+        <header class="header-top">
+
+            <div class="menu clearfix">
+                <a href="index.html">Home / ホーム</a>
+                <a href="#about-us">About me / 私について</a>
+
+                <!--<div class="menu-cont">
+                                        <p class="text">Menu cont</p>
+                                        <ul class="sub-menu">
+                                                <li><a href="htp://page">My Page</a></li>
+                                        </ul>
+                                </div>-->
+                <!-- Add other menu similar to "about" here -->
+                <a href="#contact">Links / リンク</a>
+            </div>
+        </header>
+        <!-- END OF site header Menu-->
+
+        <!-- BEGIN OF Quick nav icons at left -->
+        <nav class="quick-link count-4 nav-left">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="index/images/avatar.jpg" alt="Avatar" class="round_img">
+                </a>
+            </div>
+            <ul id="qmenu" class="qmenu">
+                <li data-menuanchor="home">
+                    <a href="#home" class=""><i class="icon ion ion-home"></i>
+                    </a>
+                    <span class="title">Home page / ホームページ</span>
+                </li>
+                <li data-menuanchor="register">
+                    <a href="#register"><i class="icon ion ion-compose"></i>
+                    </a>
+                    <span class="title">Research Subject / 研究テーマ</span>
+                </li>
+                <li data-menuanchor="papers">
+                    <a href="#papers"><i class="icon ion ion-compose"></i>
+                    </a>
+                    <span class="title">Publications / 学術論文</span>
+                </li>
+                <li data-menuanchor="about-us">
+                    <a href="#about-us"><i class="icon ion ion-android-information"></i>
+                    </a>
+                    <span class="title">About me / 私について</span>
+                </li>
+                <!--<li data-menuanchor="contact">
+                        <a href="#contact"><i class="icon ion ion-android-call"></i>
+                        </a>
+                        <span class="title">Contact</span>
+                </li>-->
+                <li data-menuanchor="contact">
+                    <a href="#contact"><i class="icon ion ion-email"></i>
+                    </a>
+                    <span class="title">Links / リンク</span>
+                </li>
+            </ul>
+        </nav>
+        <!-- END OF Quick nav icons at left -->
+
+
+
+        <!-- BEGIN OF site cover -->
+        <div class="page-cover" id="s-cover">
+            <!-- Cover Background -->
+            <div class="cover-bg pos-abs full-size bg-img" data-image-src="img/bg-default.jpg"></div>
+
+            <!-- BEGIN OF Slideshow Background -->
+            <!--<div class="cover-bg pos-abs full-size slide-show">
+                                <i class='img' data-src='./img/bg-slide1.jpg'></i>
+                                <i class='img' data-src='./img/bg-slide2.jpg'></i>
+                                <i class='img' data-src='./img/bg-slide3.jpg'></i>
+                                <i class='img' data-src='./img/bg-slide4.jpg'></i>
+                        </div>-->
+            <!-- END OF Slideshow Background -->
+
+            <!--BEGIN OF Static video bg  - uncomment below to use Video as Background-->
+            <div id="container" class="video-container show-for-medium-up">
+                <video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted"
+                       width="640" height="360">
+                    <source src="vid/flower_loop.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!--END OF Static video bg-->
+
+            <!-- Solid color as background -->
+            <!--            <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgb(59, 59, 59)"></div>-->
+
+            <!-- Solid color as filter -->
+            <div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(0, 0, 0, 0.41)"></div>
+
+        </div>
+        <!--END OF site Cover -->
+
+        <!-- Begin of timer pane -->
+        <div class="pane-when " id="s-when">
+            <div class="content">
+                <!-- Clock -->
+                <div class="clock clock-countdown">
+                    <div class="site-config"
+                         data-date="10/30/2016 00:00:00"
+                         data-date-timezone="+0"
+                         ></div>
+                    <!--
+                    <div class="elem-center">
+                        <div class="digit">
+                            <span class="days">81</span>
+                            <span class="txt">days</span>
+                        </div>
+                    </div> -->
+                    <!-- Logo instead -->
+
+                    <div class="logo">
+                        <a href="#">
+                            <img src="img/sakura.jpg">
+                        </a>
+                    </div>
+
+
+                    <div class="elem-bottom tranparent">
+                        <div class="deco"></div>
+
+                        <!--						<span class="days">12</span><span class="thin">D</span>-->
+                        <span class="hours">18</span><span class="thin">H</span>
+                        <span class="minutes">45</span><span class="thin">MN</span>
+                        <span class="seconds">36</span><span class="thin">S</span>
+                    </div>
+                </div>
+
+
+                <footer class="tranparent">
+                    <p>Before we launch our <strong>new website</strong></p>
+                </footer>
+            </div>
+        </div>
+        <!-- End of timer pane -->
+
+        <!-- BEGIN OF site main content content here -->
+        <main class="page-main" id="mainpage">
+
+            <!-- Begin of home page -->
+            <div class="section page-home page page-cent" id="s-home">
+
+                <!-- Logo -->
+                <!--<div class="logo-container">
+                        <img class="h-logo" src="img/logo_only.png" alt="Logo">
+                </div>-->
+                <!-- Content -->
+                <section class="content">
+
+                    <header class="header">
+                        <div class="h-left">
+                            <h2 class="align_center">Welcome <strong>to my page</strong></h2>
+                        </div>
+                        <br/>
+                        <div class="h-right">
+                            <h3>私のページにようこそ</h3>
+                            <br/>
+                            <span class="subhead subhead_span"><a href="#register">Please scroll down</a></span>
+                            <span class="subhead subhead_span no_dash"><a href="#register">下にスクロールしてください</a></span>
+                        </div>
+                    </header>
+                </section>
+
+                <!-- Scroll down button -->
+                <footer class="p-footer p-scrolldown">
+                    <a href="#register">
+                        <div class="arrow-d">
+                            <div class="before">Scroll</div>
+                            <div class="after">Down</div>
+                            <div class="circle"><i class="ion ion-mouse"></i></div>
+                        </div>
+                    </a>
+                </footer>
+            </div>
+            <!-- End of home page -->
+
+
+
+            <!-- Begin of register page -->
+            <div class="section page-register page page-cent"  id="s-register">
+                <section class="content">
+                    <header class="p-title">
+                        <h3>Research Subject / 研究テーマ <i class="ion ion-compose"></i></h3>
+
+                    <!-- <h4 class="subhead"><a>Title / タイトル</a></h4> -->
+                        <!--<h4 class="subhead align_center">Building a public dataset on car accident footage for automatic generation of traffic accident reports / 交通事故報告書の自動生成に向けた自動車事故映像に関する公開データセットの構築</h4>-->
+                    </header>
+			<article class="text">
+                <p>Implementing a responsibility assessment system for crossroad vehicle collisions / 交差点車両衝突責任評価システムの導入</p>
+            </article>
+                </section>
+                <footer class="p-footer p-scrolldown">
+                    <a href="#about-us">
+                        <div class="arrow-d">
+                            <div class="before">About Me</div>
+                            <div class="after">Welcome</div>
+                            <div class="circle"><i class="ion ion-mouse"></i></div>
+                        </div>
+                    </a>
+                </footer>
+            </div>
+            <!-- End of register page -->
+
+
+
+            <!-- Begin of register page -->
+            <div class="section page-register page page-cent"  id="s-papers">
+                <section class="content">
+                    <header class="p-title">
+                        <h3>Publications / 学術論文 <i class="ion ion-compose"></i></h3>
+
+                    <h4 class="subhead"><a>2022</a></h4>
+                        <!--<h4 class="subhead align_center">Building a public dataset on car accident footage for automatic generation of traffic accident reports / 交通事故報告書の自動生成に向けた自動車事故映像に関する公開データセットの構築</h4>-->
+                    </header>
+			<article class="text">
+                <ul class="ul">
+                    <li>
+                        Yawovi, Helton Agbewonou, Masato Kikuchi, and Tadachika Ozono. "Who Was Wrong? An Object Detection Based Responsibility Assessment System for Crossroad Vehicle Collisions." AI 3.4 (2022): 844-862. 
+                    <a class="a-round" target="_blank" href="https://www.mdpi.com/2673-2688/3/4/51">Read now</a>
+                    </li>
+                    <li>
+                        Helton, Yawovi Agbewonou, Kikuchi Masato, and Ozono Tadachika. "Responsibility Assessment in Crossroad Accident Using Object Recognition and Knowledge System." IEICE Technical Report; IEICE Tech. Rep. 121.382 (2022): 59-64.
+                    <a class="a-round" target="_blank" href="https://ken.ieice.org/ken/paper/20220228nCiB/eng/">Read now</a>
+                    </li>
+                </ul>
+                    </article>
+                    <h4 class="subhead"><a>2021</a></h4>
+                        <!--<h4 class="subhead align_center">Building a public dataset on car accident footage for automatic generation of traffic accident reports / 交通事故報告書の自動生成に向けた自動車事故映像に関する公開データセットの構築</h4>-->
+                    </header>
+			<article class="text">
+                <ul class="ul">
+                    <li>
+                        Helton, Yawovi Agbewonou, Kikuchi Masato, and Ozono Tadachika. "Responsibility Assessment in Crossroad Accident Using Object Recognition and Knowledge System." IEICE Technical Report; IEICE Tech. Rep. 121.382 (2022): 59-64.
+                    <a class="a-round" target="_blank" href="https://ken.ieice.org/ken/paper/20220228nCiB/eng/">Read now</a>
+                    </li>
+                </ul>
+                    </article>
+                    <h4 class="subhead"><a>2020</a></h4>
+                        <!--<h4 class="subhead align_center">Building a public dataset on car accident footage for automatic generation of traffic accident reports / 交通事故報告書の自動生成に向けた自動車事故映像に関する公開データセットの構築</h4>-->
+                    </header>
+			<article class="text">
+                <ul class="ul">
+                    <li>
+                        Yawovi, Helton Agbewonou, Tadachika Ozono, and Toramatsu Shintani. "Crossroad Accident Responsibility Prediction Based on a Multi-agent System." 2020 International Conference on Computational Science and Computational Intelligence (CSCI) . IEEE, 2020.
+                    <a class="a-round" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9458081/">Read now</a>
+                    </li>
+                    <li>
+                        YAWOVI, Helton Agbewonou, Tadachika OZONO, and Toramatsu SHINTANI. "Realizing an automatic responsibilities prediction system for road accident using 3D simulation and knowledge systems." Proc . , 2020.
+                                            <a class="a-round" target="_blank" href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_3F1ES203/_article/-char/ja/">Read now</a>
+                    </li>
+                    <li>
+                        YAWOVI, Helton Agbewonou, Tadachika OZONO, and Toramatsu SHINTANI. "Implementing an Automatic Road Accident Report System with an Accident Simulator." (2020).
+                      <a class="a-round" target="_blank" href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_action_common_download&item_id=203051&item_no=1&attribute_id=1&file_no=1&block_id=8&page_id=13">Read now</a>
+                    </li>
+                    <li>
+                        YAWOVI, Helton Agbewonou, Tadachika OZONO, and Toramatsu SHINTANI. "Developing a Road Accident Simulator for Automatic Road Accident Report System."
+                        <a class="a-round" target="_blank" href="http://www.interaction-ipsj.org/proceedings/2020/data/pdf/3B-25.pdf">Read now</a>
+                    </li>
+                    <!-- <li>
+                        H. A. Yawovi, T. Ozono and T. Shintani, "Crossroad Accident Responsibility Prediction Based on a Multi-agent System," 2020 International Conference on Computational Science and Computational Intelligence (CSCI), Las Vegas, NV, USA, 2020, pp. 579-584.
+                        <a class="a-round" target="_blank" href="https://ieeexplore.ieee.org/document/9458081">Read now</a>
+                    </li> -->
+
+                    
+                </ul>
+                    </article>
+                    <h4 class="subhead"><a>2019</a></h4>
+                        <!--<h4 class="subhead align_center">Building a public dataset on car accident footage for automatic generation of traffic accident reports / 交通事故報告書の自動生成に向けた自動車事故映像に関する公開データセットの構築</h4>-->
+                    </header>
+			<article class="text">
+                <ul class="ul">
+                    <li>
+                        YAWOVI, Agbewonou Helton, Tadachika OZONO, and Toramatsu SHINTANI. "Implementing an automatic and instant road accident report system using Knowledge System." FIT2019 2 (2019): 353-354.
+                        <a class="a-round" target="_blank" href="https://www.ieice.org/publications/conference-FIT-DVDs/FIT2019/data/pdf/F-039.pdf">Read now</a>
+                    </li>
+                    
+                </ul>
+                    </article>
+                </section>
+                <!-- <footer class="p-footer p-scrolldown">
+                    <a href="#about-us">
+                        <div class="arrow-d">
+                            <div class="before">About Me</div>
+                            <div class="after">Welcome</div>
+                            <div class="circle"><i class="ion ion-mouse"></i></div>
+                        </div>
+                    </a>
+                </footer> -->
+            </div>
+            <!-- End of register page svae -->
+            
+
+            <!-- Begin of about us page -->
+            <div class="section page-about page page-cent" id="s-about-us">
+                <section class="content">
+                    <header class="p-title">
+                        <h3>About Me / 私について<i class="ion ion-android-information">
+                            </i>
+                        </h3>
+                        <h4 class="subhead"><a>Career / 経歴</a></h4>
+                    </header>
+                    <article class="text">
+                        <p>Born in October 1995, raised, educated and graduated in Lomé the capital of Togo
+                            (Western Africa), I created in 2015 with 3 friends, an IT company company called
+                            <a href="http://dashmake.com/" target="_blank" class="bold pink_link">Dashmake</a>. I am now
+                            in Nagoya Institute of Technology in Japan, studying AI and Machine learning since
+                            August 2018. I got my Master's Degree in April 2021 and I am currently in my first year of PhD program in <a href="http://www-ozlab.ics.nitech.ac.jp/" target="_blank" class="bold pink_link">OZLAB</a>.  </p>
+                        <p class="translation">
+                            1995年10月生まれ、トーゴの首都ロメで育ち、教育を受け、卒業しました。
+                            （西アフリカ）、私は3人の友達と呼ばれる2015年に創設しました。
+                            <a href="http://dashmake.com/" target="_blank" class="bold pink_link"> Dashmake。</a></p>
+                    </article>
+                    <h4 class="subhead"><a>Hobbies / 趣味</a></h4>
+                    <article class="text">
+                        <p>Video Games, Anime, Travel</p>
+                        <p class="translation">ビデオゲーム、アニメ、旅行</p>
+                    </article>
+                </section>
+                <footer class="p-footer p-scrolldown">
+                    <a href="#contact">
+                        <div class="arrow-d">
+                            <div class="before">Links</div>
+                            <div class="after">Research Subject</div>
+                            <div class="circle"><i class="ion ion-mouse"></i></div>
+                        </div>
+                    </a>
+                </footer>
+            </div>
+            <!-- End of about us page -->
+
+            <!-- Begin of Contact page   -->
+            <div class="section page-contact page page-cent  bg-color" data-bgcolor="rgba(95, 25, 208, 0.88)s" id="s-contact">
+                <!-- Begin of contact information -->
+                <div class="slide" id="s-information" data-anchor="information">
+                    <section class="content">
+                        <header class="p-title">
+                            <h3>Links / リンク<i class="ion ion-location">
+                                </i>
+                            </h3>
+                            <ul class="buttons">
+                                <li class="show-for-medium-up">
+                                    <a title="About" href="#about-us" ><i class="ion ion-android-information"></i></a>
+                                </li>
+                                <!--<li>
+                                        <a title="Contact" href="#contact/information"><i class="ion ion-location"></i></a>
+                                </li>-->
+                                <!--<li>
+                                    <a title="Message" href="#contact/message"><i class="ion ion-email"></i></a>
+                                </li>-->
+                            </ul>
+                        </header>
+                        <!-- Begin Of Page SubSction -->
+                        <div class="contact">
+                            <div class="row">
+                                <div class="medium-6 columns left">
+                                    <ul>
+                                        <li>
+                                            <h4>Email / メール</h4>
+                                            <p><a>yawovi[at]toralab.org</a></p>
+                                        </li>
+                                        <!-- <li>
+                                            <h4>Address / 住所</h4>
+                                            <p>名古屋市中村区平池町
+                                                <br>４丁目60番地の7</p>
+                                        </li>-->
+                                    </ul>
+                                </div>
+                                <div class="medium-6 columns social-links right">
+                                    <ul>
+
+                                        <!-- legal notice -->
+                                        <!-- <li>
+                                            <h4>電話 / Phone</h4>
+                                            <p>+81 80-3676-8228</p>
+                                        </li>-->
+                                        <!--<li class="show-for-medium-up">
+                                            <h4>Website</h4>
+                                            <p><a href="http://www.dashmake.com">www.dashmake.com</a></p>
+                                        </li>-->
+                                        <li  class="show-for-medium-up">
+                                            <h4>私を見つける / Find me on</h4>
+                                            <!-- Begin of Social links -->
+                                            <div class="socialnet">
+                                                <a href="https://twitter.com/heltonyawovi"><i class="ion ion-social-twitter"></i></a>
+                                                <a href="https://www.linkedin.com/in/yawoviagbewonouhelton/"><i class="ion ion-social-linkedin"></i></a>
+                                                <a href="https://www.facebook.com/helton.yawovi.5"><i class="ion ion-social-facebook"></i></a>
+                                            </div>
+                                            <!-- End of Social links -->
+                                        </li>
+                                        <!--<li>
+                                            <p><img src="img/logo_large.png" alt="Logo" class="logo"></p>
+                                            <p class="small">Bientot by <strong><a href="http://highhay.com">Brand</a></strong>. All right reserved 2015</p>
+                                        </li>-->
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of page SubSection -->
+                    </section>
+                </div>
+                <!-- end of contact information -->
+
+                <!-- begin of contact message -->
+                <div class="slide" id="s-message" data-anchor="message">
+                    <section class="content">
+                        <header class="p-title">
+                            <h3>Write to us<i class="ion ion-email">
+                                </i>
+                            </h3>
+                            <ul class="buttons">
+                                <li class="show-for-medium-up">
+                                    <a title="About" href="#about-us"><i class="ion ion-android-information"></i></a>
+                                </li>
+                                <li>
+                                    <a title="Contact" href="#contact/information"><i class="ion ion-location"></i></a>
+                                </li>
+                                <!--<li>
+                                        <a title="Message" href="#contact/message"><i class="ion ion-email"></i></a>
+                                </li>-->
+                            </ul>
+                        </header>
+                        <!-- Begin Of Page SubSction -->
+
+                        <div class="page-block c-right v-zoomIn">
+                            <div class="wrapper">
+                                <div>
+                                    <form class="message form send_message_form" method="get" action="http://www-ozlab.ics.nitech.ac.jp/members/2018/yawovi/ajaxserver/serverfile.php">
+                                        <div class="fields clearfix">
+                                            <div class="input">
+                                                <label for="mes-name">Name </label>
+                                                <input id="mes-name" name="name" type="text" placeholder="Your Name" required></div>
+                                            <div class="buttons">
+                                                <button id="submit-message" class="button email_b" name="submit_message">Ok</button>
+                                            </div>
+                                        </div>
+                                        <div class="fields clearfix">
+                                            <div class="input">
+                                                <label for="mes-email">Email </label>
+                                                <input id="mes-email" type="email" placeholder="Email Address" name="email" required>
+                                            </div>
+                                        </div>
+                                        <div class="fields clearfix no-border">
+                                            <label for="mes-text">Message </label>
+                                            <textarea id="mes-text" placeholder="Message ..." name="message" required></textarea>
+
+                                            <div>
+                                                <p class="message-ok invisible">Your message has been sent, thank you.</p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Of Page SubSction -->
+                    </section>
+
+                </div>
+                <!-- End of contact message -->
+            </div>
+            <!-- End of Contact page  -->
+
+        </main>
+
+        <!-- END OF site main content content here -->
+
+        <!-- Begin of site footer -->
+        <footer class="page-footer">
+            <div>
+                <a href="https://twitter.com/heltonyawovi" target="_blank" class="round_img"><i class="ion icon ion-social-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/yawoviagbewonouhelton/" target="_blank" class="round_img"><i class="ion icon ion-social-linkedin"></i></a>
+                <a href="https://www.facebook.com/helton.yawovi.5" target="_blank" class="round_img"><i class="ion icon ion-social-facebook"></i></a>
+            </div>
+        </footer>
+        <!-- End of site footer -->
+
+
+        <!--        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+
+        <!-- All Javascript plugins goes here -->
+        <!--		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>-->
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <!-- All vendor scripts -->
+        <script src="js/vendor/all.js"></script>
+
+        <!-- Detailed vendor scripts -->
+        <!--<script src="./js/vendor/jquery.fullPage.min.js"></script>
+        <script src="./js/vendor/jquery.slimscroll.min.js"></script>
+        <script src="./js/vendor/jquery.knob.min.js"></script>
+        <script src="./js/vegas/vegas.min.js"></script>
+        <script src="./js/jquery.maximage.js"></script>
+        <script src="./js/okvideo.min.js"></script>-->
+
+        <!-- Downcount JS -->
+        <script src="js/jquery.downCount.js"></script>
+
+        <!-- Form script -->
+        <script src="js/form_script.js"></script>
+
+        <!-- Javascript main files -->
+        <script src="js/main.js"></script>
+
+
+        <!-- Google Analytics: Uncomment and change UA-XXXXX-X to be your site"s ID. -->
+        <!--<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src="//www.google-analytics.com/analytics.js";
+            r.parentNode.insertBefore(e,r)}(window,document,"script","ga"));
+            ga("create","UA-XXXXX-X");ga("send","pageview");
+        </script>-->
+    </body>
+</html>
